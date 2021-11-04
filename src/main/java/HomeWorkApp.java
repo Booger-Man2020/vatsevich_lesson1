@@ -6,7 +6,7 @@ public class HomeWorkApp {
         chekSumSing();
         printColor();
         compareNumbers();
-        System.out.println("Finish");
+
     }
     public static void printTheeWords() {
         System.out.println("Orange");
