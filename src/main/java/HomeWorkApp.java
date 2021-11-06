@@ -9,11 +9,13 @@ public class HomeWorkApp {
 
     }
     public static void printTheeWords() {
+        System.out.println("Задача 1: Слова");
         System.out.println("Orange");
         System.out.println("Banana");
         System.out.println("Apple");
     }
     public static void chekSumSing() {
+        System.out.println("Задача 2: Сумма чисел");
         Scanner scanner = new Scanner(System.in);
         System.out.println("Введите число а");
         int a = scanner.nextInt();
@@ -24,6 +26,7 @@ public class HomeWorkApp {
         } else System.out.println("Сумма отрицательная");
         }
         public static void printColor() {
+            System.out.println("Задача 3:  Цвет числа");
             Scanner scanner = new Scanner(System.in);
             System.out.println("Введите число");
         int value = scanner.nextInt();
@@ -34,6 +37,7 @@ public class HomeWorkApp {
         } else System.out.println("Желтый");
         }
         public static void compareNumbers(){
+            System.out.println("Задача 4: Сравнение чисел");
             Scanner scanner = new Scanner(System.in);
             System.out.println("Введи чиcло а");
         int a = scanner.nextInt();
