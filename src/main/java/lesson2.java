@@ -3,8 +3,8 @@ import java.util.Scanner;
 public class lesson2 {
     public static void main(String[] args) {
         checkSum();
-        inter();
-        positivNumber();
+        inter(15);
+        positivNumber(-15);
        stringsNumbers();
         System.out.println(leapYear());
 
@@ -22,22 +22,16 @@ public class lesson2 {
         System.out.println(sum);
     }
 
-    public static void inter() {
+    public static void inter(int a) {
         System.out.println("Задача 2");
-        System.out.println("Введи число");
-        Scanner scan = new Scanner(System.in);
-       int a = scan.nextInt();
         if ( a>= 0){
             System.out.println("число положительое");
         }else System.out.println("число отрицательое");
 
     }
 
-    public static  void positivNumber (){
+    public static  void positivNumber (int number){
         System.out.println("Задача 3");
-        System.out.println("Введите число");
-        Scanner scan = new Scanner(System.in);
-        int number = scan.nextInt();
         boolean b = (number >= 0);
         System.out.println(b);
     }
